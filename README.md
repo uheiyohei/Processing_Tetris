@@ -1,14 +1,14 @@
 # Tetris
-Processingで作成したTetrisです。
+Tetris developed with Processing.
 
-### 遊び方
-- ←→↓キーでテトリミノの移動
-- Aキーでテトリミノの左回転
-- Dキーでテトリミノの右回転
+### How to play
+- ←→↓ key: Move tetrominos
+- A key: Rotate tetrominos counterclockwise
+- D key: Rotate tetrominos clockwise
 
-### 得点
-- テトリミノの着地: 1点
-- 1列消し: 10点
-- 2列消し: 40点
-- 3列消し: 90点
-- 4列消し: 160点
+### Point
+- Tetrominos' lock: 1p
+- Erase 1 line: 10p
+- Erase 2 lines: 40p
+- Erase 3 lines: 90p
+- Erase 4 lines: 160p
