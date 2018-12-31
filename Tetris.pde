@@ -83,7 +83,7 @@ class GameScene extends Scene {
   int updateCount;
   int tetrominoCount;
 
-  public GameScene() {
+  GameScene() {
     super();
 
     field = new int[20][10];
@@ -234,7 +234,7 @@ class FieldController {
   boolean shouldProduceTetromino;
   boolean isHighlightingLines;
 
-  public FieldController() {
+  FieldController() {
     this.shouldProduceTetromino = true;
     this.isHighlightingLines = false;
   }
@@ -342,7 +342,7 @@ class Tetromino {
   int type;
   int axisIndex;
 
-  public Tetromino(int tetrominoType, boolean isNextTetromino) {
+  Tetromino(int tetrominoType, boolean isNextTetromino) {
     this.position = new int[4][2]; // ((x, y), (x, y) ...)
 
     switch(tetrominoType) {
