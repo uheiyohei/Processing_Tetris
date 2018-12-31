@@ -8,7 +8,7 @@ Tetris developed with Processing.
 
 ### Point
 - Tetrominos' lock: 1p
-- Erase 1 line: 10p
-- Erase 2 lines: 40p
-- Erase 3 lines: 90p
-- Erase 4 lines: 160p
+- Clear 1 line: 10p
+- Clear 2 lines: 40p
+- Clear 3 lines: 90p
+- Clear 4 lines: 160p
