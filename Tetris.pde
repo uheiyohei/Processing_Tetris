@@ -16,11 +16,11 @@ void setup() {
 void draw() {
   background(255);
 
-  if (startScene.isActive) {
+  if (startScene != null && startScene.isActive) {
     startScene.update();
-  } else if (gameScene.isActive) {
+  } else if (gameScene != null & gameScene.isActive) {
     gameScene.update();
-  } else if (gameOverScene.isActive) {
+  } else if (gameOverScene != null && gameOverScene.isActive) {
     gameOverScene.update();
   }
 }
