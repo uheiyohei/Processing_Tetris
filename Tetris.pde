@@ -18,7 +18,7 @@ void draw() {
 
   if (startScene != null && startScene.isActive) {
     startScene.update();
-  } else if (gameScene != null & gameScene.isActive) {
+  } else if (gameScene != null && gameScene.isActive) {
     gameScene.update();
   } else if (gameOverScene != null && gameOverScene.isActive) {
     gameOverScene.update();
