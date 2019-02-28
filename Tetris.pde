@@ -26,11 +26,11 @@ void draw() {
 }
 
 void keyPressed() {
-  if (startScene.isActive) {
+  if (startScene != null && startScene.isActive) {
     startScene.keyPressed();
-  } else if (gameScene.isActive) {
+  } else if (gameScene != null && gameScene.isActive) {
     gameScene.keyPressed();
-  } else if (gameOverScene.isActive) {
+  } else if (gameOverScene != null && gameOverScene.isActive) {
     gameOverScene.keyPressed();
   }
 }
